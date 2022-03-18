@@ -1,4 +1,4 @@
-//TODO: replace @import with local file
+//replace @import with local file
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import "includes";
 
@@ -517,7 +517,7 @@ header {
 
 
 
-@media screen and (max-width: pxToEm(700)) {
+@media screen and (max-width: pxToEm(1100)) {
     #block-adchallenge-content {
         margin-left: $margin_left_right_mobile;
         margin-right: $margin_left_right_mobile;
@@ -533,6 +533,9 @@ header {
         margin-right: $margin_left_right_mobile;
     }
 
+    header #block-adchallenge-branding{
+        margin-left: $margin_left_right_mobile;
+    }
     header #block-adchallenge-main-menu {
         margin-right: $margin_left_right_mobile;
     }
