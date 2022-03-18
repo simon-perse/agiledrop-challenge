@@ -1,0 +1,4 @@
+sites/default/settings.local.php
+sites/default/files/php
+sites/default/files/tmp
+.idea

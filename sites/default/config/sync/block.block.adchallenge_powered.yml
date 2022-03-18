@@ -1,0 +1,22 @@
+uuid: d6f1ab1f-c90f-46f3-bb5d-6d1082a02da4
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - adchallenge
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: adchallenge_powered
+theme: adchallenge
+region: sidebar_first
+weight: -5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

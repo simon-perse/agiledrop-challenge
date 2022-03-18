@@ -1,0 +1,31 @@
+uuid: 29e5534c-a234-41b0-933b-6146042ad64c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e061af7e-7e0f-4760-b54b-14b9c7763a2e'
+  module:
+    - block_content
+    - system
+  theme:
+    - adchallenge
+id: sidebar_banner
+theme: adchallenge
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:e061af7e-7e0f-4760-b54b-14b9c7763a2e'
+settings:
+  id: 'block_content:e061af7e-7e0f-4760-b54b-14b9c7763a2e'
+  label: 'Sidebar banner'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

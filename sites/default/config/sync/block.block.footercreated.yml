@@ -1,0 +1,25 @@
+uuid: 6d8d15ee-48ab-424e-90d3-4cfe26c6b0d3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:10f276e4-bcc3-4a8c-9987-1cc706a30955'
+  module:
+    - block_content
+  theme:
+    - adchallenge
+id: footercreated
+theme: adchallenge
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:10f276e4-bcc3-4a8c-9987-1cc706a30955'
+settings:
+  id: 'block_content:10f276e4-bcc3-4a8c-9987-1cc706a30955'
+  label: 'Footer Created'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

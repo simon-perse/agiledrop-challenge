@@ -1,0 +1,22 @@
+uuid: 5eb2b97d-e770-42f0-80b1-75e9c3f12601
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - adchallenge
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: adchallenge_breadcrumbs
+theme: adchallenge
+region: sidebar_first
+weight: -1
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,31 @@
+uuid: bbb49fbb-86ec-4bdc-a76b-e58b9121f259
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:09cba057-a776-4c76-8585-5460f8794ee7'
+  module:
+    - block_content
+    - system
+  theme:
+    - adchallenge
+id: homepage_top_content
+theme: adchallenge
+region: content
+weight: -4
+provider: null
+plugin: 'block_content:09cba057-a776-4c76-8585-5460f8794ee7'
+settings:
+  id: 'block_content:09cba057-a776-4c76-8585-5460f8794ee7'
+  label: 'Homepage top content'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

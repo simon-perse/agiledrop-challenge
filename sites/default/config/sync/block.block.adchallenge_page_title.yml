@@ -1,0 +1,20 @@
+uuid: 57fc3cac-a6e7-488e-a3f2-2b733ad1c9c0
+langcode: en
+status: true
+dependencies:
+  theme:
+    - adchallenge
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: adchallenge_page_title
+theme: adchallenge
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

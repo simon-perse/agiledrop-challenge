@@ -1,0 +1,22 @@
+uuid: 629e2fdd-d6e5-4a2f-b364-e1e2252e5713
+langcode: en
+status: true
+dependencies:
+  theme:
+    - adchallenge
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: adchallenge_local_tasks
+theme: adchallenge
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }
