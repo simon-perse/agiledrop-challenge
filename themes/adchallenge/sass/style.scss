@@ -1,4 +1,4 @@
-//replace @import with local file
+//TODO: replace @import with local file
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import "includes";
 
@@ -342,6 +342,10 @@ header {
         padding-bottom: 12%;
     .content-right {
         flex-basis: 100%;
+        h2 {
+            padding-top: 0;
+            margin-top: 0;
+        }
     }
     #block-latest-event  .img-left {
         flex-basis: 100%;

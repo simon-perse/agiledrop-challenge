@@ -400,6 +400,10 @@ header .site-slogan b {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
+  #block-latest-event .content-right h2 {
+    padding-top: 0;
+    margin-top: 0;
+  }
   #block-latest-event #block-latest-event .img-left {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
